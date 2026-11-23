@@ -1,0 +1,38 @@
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.chanirac.week6_javafx.LoginController"
+      alignment="CENTER"
+      spacing="15"
+      prefWidth="400"
+      prefHeight="300">
+
+    <padding>
+        <Insets top="20" right="30" bottom="20" left="30"/>
+    </padding>
+
+    <children>
+        <Label text="Welcome to Chanira C!"
+               style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+
+        <Label text="Please log in to continue"/>
+
+        <TextField fx:id="usernameField"
+                   promptText="Enter username"
+                   maxWidth="250"/>
+
+        <PasswordField fx:id="passwordField"
+                       promptText="Enter password"
+                       maxWidth="250"/>
+
+        <Button text="Login"
+                onAction="#handleLogin"
+                maxWidth="250"/>
+
+        <Label fx:id="messageLabel"/>
+    </children>
+
+</VBox>
