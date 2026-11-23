@@ -11,6 +11,9 @@ public class WeatherStation {
 StatisticsDisplay statisticsDisplay =
         new StatisticsDisplay(weatherData);
 
+ForecastDisplay forecastDisplay =
+        new ForecastDisplay(weatherData);
+
         weatherData.setMeasurements(28, 65, 1012);
         weatherData.setMeasurements(30, 70, 1010);
         weatherData.setMeasurements(26, 60, 1015);
