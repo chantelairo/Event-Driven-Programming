@@ -39,7 +39,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>com.chanirac.week6_javafxOrderFormDemo</mainClass>
+                    <mainClass>com.chanirac.week6_javafxLoginApp</mainClass>
                 </configuration>
             </plugin>
         </plugins>
